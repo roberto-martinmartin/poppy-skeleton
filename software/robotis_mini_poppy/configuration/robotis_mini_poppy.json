@@ -24,16 +24,16 @@
       "left_elbow"
     ],
     "right_leg": [
-      "right_butt",
-      "right_hip",
-      "right_knie",
+      "right_hip1",
+      "right_hip2",
+      "right_knee",
       "right_ankle1",
       "right_ankle2"
     ],
     "left_leg": [
-      "left_butt",
-      "left_hip",
-      "left_knie",
+      "left_hip1",
+      "left_hip2",
+      "left_knee",
       "left_ankle1",
       "left_ankle2"
       ]
@@ -99,7 +99,7 @@
       ], 
       "offset": 0.0
     },
-    "right_butt": {
+    "right_hip1": {
       "orientation": "direct", 
       "type": "XL-320", 
       "id": 7, 
@@ -109,7 +109,7 @@
       ], 
       "offset": 0.0
     }, 
-    "right_hip": {
+    "right_hip2": {
       "orientation": "direct", 
       "type": "XL-320", 
       "id": 9, 
@@ -119,7 +119,7 @@
       ], 
       "offset": 0.0
     }, 
-    "right_knie": {
+    "right_knee": {
       "orientation": "direct", 
       "type": "XL-320", 
       "id": 11, 
@@ -149,7 +149,7 @@
       ], 
       "offset": 0.0
     },
-    "left_butt": {
+    "left_hip1": {
       "orientation": "direct", 
       "type": "XL-320", 
       "id": 8, 
@@ -159,7 +159,7 @@
       ], 
       "offset": 0.0
     }, 
-    "left_hip": {
+    "left_hip2": {
       "orientation": "direct", 
       "type": "XL-320", 
       "id": 10, 
@@ -169,7 +169,7 @@
       ], 
       "offset": 0.0
     },  
-    "left_knie": {
+    "left_knee": {
       "orientation": "direct", 
       "type": "XL-320", 
       "id": 12, 
