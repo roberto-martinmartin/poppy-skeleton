@@ -3,10 +3,22 @@
     "all_body_controller": {
       "sync_read": true,
       "attached_motors": [
-        "right_arm",
-        "left_arm",
-        "right_leg",
-        "left_leg"
+        "left_hip1",
+        "right_hip1",
+        "right_hip2",
+        "right_knee",
+        "right_ankle1",
+        "right_ankle2",
+        "left_hip2",
+        "left_knee",
+        "left_ankle1",
+        "left_ankle2",
+        "right_shoulder1",
+        "right_shoulder2",
+        "right_elbow",
+        "left_shoulder1",
+        "left_shoulder2",
+        "left_elbow"
       ],
       "port": "/dev/ttyACM0",
       "protocol": 2
@@ -50,7 +62,7 @@
       "id": 1
     },
     "right_shoulder2": {
-      "orientation": "direct", 
+      "orientation": "indirect", 
       "type": "XL-320", 
       "id": 3, 
       "angle_limit": [
@@ -60,7 +72,7 @@
       "offset": 0.0
     }, 
     "right_elbow": {
-      "orientation": "direct", 
+      "orientation": "indirect", 
       "type": "XL-320", 
       "id": 5, 
       "angle_limit": [
@@ -70,7 +82,7 @@
       "offset": 0.0
     },
     "left_shoulder1": {
-      "orientation": "direct", 
+      "orientation": "indirect", 
       "type": "XL-320", 
       "id": 2, 
       "angle_limit": [
@@ -100,7 +112,7 @@
       "offset": 0.0
     },
     "right_hip1": {
-      "orientation": "direct", 
+      "orientation": "indirect", 
       "type": "XL-320", 
       "id": 7, 
       "angle_limit": [
@@ -130,7 +142,7 @@
       "offset": 0.0
     },
     "right_ankle1": {
-      "orientation": "direct", 
+      "orientation": "indirect", 
       "type": "XL-320", 
       "id": 13, 
       "angle_limit": [
@@ -160,7 +172,7 @@
       "offset": 0.0
     }, 
     "left_hip2": {
-      "orientation": "direct", 
+      "orientation": "indirect", 
       "type": "XL-320", 
       "id": 10, 
       "angle_limit": [
@@ -170,7 +182,7 @@
       "offset": 0.0
     },  
     "left_knee": {
-      "orientation": "direct", 
+      "orientation": "indirect", 
       "type": "XL-320", 
       "id": 12, 
       "angle_limit": [
@@ -190,7 +202,7 @@
       "offset": 0.0
     }, 
     "left_ankle2": {
-      "orientation": "direct", 
+      "orientation": "indirect", 
       "type": "XL-320", 
       "id": 16, 
       "angle_limit": [

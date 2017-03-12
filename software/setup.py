@@ -9,6 +9,11 @@ setup(name='robotis_mini_poppy',
 
       install_requires=['pypot >= 2.11', 'poppy-creature >= 1.8'],
 
+      package_data={'robotis_mini_poppy': ['robotis_mini_poppy/configuration/robotis_mini_poppy.json']},
+      include_package_data=True,
+
+      zip_safe = False,
+      
       author='Roberto Martin-Martin',
       author_email='rmartinmar@gmail.com',
       description='Pypot model for Robotis Mini robot',
