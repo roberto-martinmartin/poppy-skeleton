@@ -7,7 +7,7 @@ setup(name='robotis_mini_poppy',
       version='0.1',
       packages=find_packages(),
 
-      install_requires=['pypot >= 2.11', 'poppy-creature >= 1.8'],
+      install_requires=['pypot >= 3.0'],
 
       package_data={'robotis_mini_poppy': ['robotis_mini_poppy/configuration/robotis_mini_poppy.json']},
       include_package_data=True,
