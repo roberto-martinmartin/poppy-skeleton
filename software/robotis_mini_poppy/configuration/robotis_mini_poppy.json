@@ -79,7 +79,7 @@
       ], 
       "offset": 0.0
     },
-    "r_biceps_joint": {
+    "l_biceps_joint": {
       "orientation": "direct", 
       "type": "XL-320", 
       "id": 4, 
