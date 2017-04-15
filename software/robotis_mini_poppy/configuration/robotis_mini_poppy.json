@@ -140,7 +140,7 @@
       "offset": 0.0
     },
     "r_foot_joint": {
-      "orientation": "direct", 
+      "orientation": "indirect", 
       "type": "XL-320", 
       "id": 15, 
       "angle_limit": [
@@ -190,7 +190,7 @@
       "offset": 0.0
     }, 
     "l_foot_joint": {
-      "orientation": "indirect", 
+      "orientation": "direct", 
       "type": "XL-320", 
       "id": 16, 
       "angle_limit": [
