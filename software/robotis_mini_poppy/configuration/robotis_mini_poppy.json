@@ -6,13 +6,17 @@
         "l_arm",
         "r_arm",
         "l_leg",
-        "r_leg"
+        "r_leg",
+        "head"
       ],
       "port": "/dev/ttyACM0",
       "protocol": 2
     }
   }, 
   "motorgroups": {
+    "head": [
+      "neck_joint"
+    ],
     "r_arm": [
       "r_shoulder_joint",
       "r_biceps_joint",
@@ -198,6 +202,16 @@
         150.0
       ], 
       "offset": 0.0
+    },
+    "neck_joint": {
+      "offset": 0.0,
+      "type": "XL-320",
+      "orientation": "direct",  
+      "angle_limit": [
+        -90.0, 
+        90.0
+      ], 
+      "id": 17
     }
   }
 }
